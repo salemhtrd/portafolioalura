@@ -20,14 +20,14 @@ section.academic {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 70px 70px;
+  padding: 60px 60px;
   gap: 10px;
 
   background: #ffffff;
 }
 
 .academic__courses__item__img--a {
-  padding: 120px 78px;
+  padding: 110px 68px;
   background: #FFFFFF
 }
 
@@ -38,6 +38,24 @@ section.academic {
 
   section.academic {
     width: 100vw;
+  }
+
+  .academic__courses__item__img {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 10px;
+  
+    background: #ffffff;
+  }
+  
+  .academic__courses__item__img--a {
+    width: 150px;
+    padding: 80px 38px;
+    background: #FFFFFF
   }
 }
 
