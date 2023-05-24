@@ -46,7 +46,7 @@ section.academic {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px 30px;
+    padding: 40px 40px;
     gap: 10px;
   
     background: #ffffff;
@@ -54,7 +54,7 @@ section.academic {
   
   .academic__courses__item__img--a {
     width: 150px;
-    padding: 80px 38px;
+    padding: 90px 48px;
     background: #FFFFFF
   }
 }
