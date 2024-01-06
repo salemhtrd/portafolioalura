@@ -32,9 +32,8 @@ header.menu__header {
   color: white;
   border: none;
   cursor: pointer;
-  padding:20px;
-  margin-top:20px;
-
+  padding: 20px; /* Ajusta según sea necesario */
+  margin-top: 20px; /* Ajusta según sea necesario */
 }
 
 .menu__list__item a:hover {

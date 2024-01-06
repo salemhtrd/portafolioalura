@@ -22,7 +22,7 @@
   width: 12vw;
   height: 13vh;
   background-color: white;
-  align-items: end;
+  align-items: center; /* Cambiado de 'end' a 'center' */
   margin-right: 0.5rem;
   padding-left: 1rem;
 }
@@ -35,39 +35,36 @@
   padding-inline-start: 0;
 }
 
-/*Tablet*/
-/* @media (min-width: 768px) { */
 @media screen and (max-width: 768px) {
-  /*Skills*/
+  /* Resto del código */
 
   .skills__title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
   }
 
   .skills__line {
-    flex-wrap: wrap;
-    width: 90vw;
+      flex-wrap: wrap;
+      width: 90vw;
   }
 
   .skills__box {
-    width: 25vw;
-    height: 10vh;
-    margin-top: 1rem;
+      width: 25vw;
+      height: 10vh;
+      margin-top: 1rem;
   }
 }
 
-/*Mobile*/
 @media screen and (max-width: 425px) {
-  /*Skills*/
+  /* Resto del código */
 
   .skills__title {
-    font-size: 1.2rem;
+      font-size: 1.2rem;
   }
 
   .skills__box {
-    width: 35vw;
-    margin-right: 0rem;
+      width: 35vw;
+      margin-right: 0rem;
   }
 }

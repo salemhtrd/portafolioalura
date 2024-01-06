@@ -14,12 +14,14 @@ section.title {
 .title__profile {
   border-radius: 50%;
   width: 18vw;
+  max-width: 100%;
 }
 
 .title__container {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  text-align: justify;
 }
 
 .title__bio {
@@ -84,12 +86,14 @@ section.title {
   .bi {
     font-size: 1.8rem;
   }
+
+  .title__network__item--descargaCV {
+    width: 16vw;
+    font-size: 1.1rem;
+  }
+  
 }
 
-.title__network__item--descargaCV {
-  width: 16vw;
-  font-size: 1.1rem;
-}
 
 /*Mobile*/
 @media screen and (max-width: 425px) {
