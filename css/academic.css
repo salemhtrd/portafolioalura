@@ -1,5 +1,6 @@
-/* Experiencia Académica*/
+/* Experiencia Académica */
 
+/* Estilos generales */
 section.academic {
   background-color: #eaf2fd;
   margin-top: 2rem;
@@ -15,54 +16,40 @@ section.academic {
   justify-content: space-around;
 }
 
-.academic__courses__item__img {
+.academic__courses__item {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 60px 60px;
-  gap: 10px;
-
-  background: #ffffff;
+  margin-bottom: 20px; /* Espacio entre elementos */
 }
 
-.academic__courses__item__img--a {
-  padding: 110px 68px;
-  background: #FFFFFF
+.academic__courses__item__container {
+  background-color: #ffffff; /* Color de fondo de la caja */
+  padding: 20px; /* Espacio interno de la caja */
+  text-align: center; /* Centrar texto horizontalmente */
 }
 
-/*Tablet*/
-/* @media (min-width: 768px) { */
+.academic__courses__item__img {
+  width: 100%; /* La imagen ocupa todo el ancho de la caja */
+}
+
+.academic__courses__item__description {
+  margin-top: 10px; /* Espacio entre imagen y texto */
+}
+
+/* Estilos para tablet */
 @media screen and (max-width: 768px) {
-  /*Formación Académica*/
-
   section.academic {
     width: 100vw;
   }
 
   .academic__courses__item__img {
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 40px 40px;
-    gap: 10px;
-  
-    background: #ffffff;
-  }
-  
-  .academic__courses__item__img--a {
-    width: 150px;
-    padding: 90px 48px;
-    background: #FFFFFF
   }
 }
 
-/*Mobile*/
+/* Estilos para móvil */
 @media screen and (max-width: 425px) {
-  /*Formación Académica*/
-
   .academic__title {
     font-size: 1.2rem;
   }
@@ -74,5 +61,10 @@ section.academic {
 
   .academic__courses__list {
     padding-left: 0;
+  }
+
+  .academic__courses__item__img {
+    padding: 20px;
+    width: 80%; /* Ajusta el tamaño de la imagen según sea necesario */
   }
 }

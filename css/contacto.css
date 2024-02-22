@@ -1,112 +1,114 @@
 /*Contacto*/
 
+/* Estilos para la sección de formulario de contacto */
 section.formcontato {
-  background-color: #eaf2fd;
-  margin-top: 2rem;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
+  background-color: #eaf2fd; /* Color de fondo */
+  margin-top: 2rem; /* Margen superior */
+  width: 100vw; /* Ancho máximo */
+  display: flex; /* Mostrar como flexbox */
+  justify-content: center; /* Centrar horizontalmente */
 }
 
+/* Estilos para el contenedor principal del formulario */
 .formcontato__contacto {
-  display: flex;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  display: flex; /* Mostrar como flexbox */
+  padding-top: 5rem; /* Espaciado superior */
+  padding-bottom: 5rem; /* Espaciado inferior */
 }
 
+/* Estilos para el texto del formulario */
 .formcontato__text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos */
+  margin-left: 1rem; /* Margen izquierdo */
 }
 
+/* Estilos para el texto secundario del formulario */
 .formcontato__subtext {
-  font-weight: normal;
-  margin-block-start: 1%;
-  margin-block-end: 0%;
+  font-weight: normal; /* Peso de la fuente */
+  margin-block-start: 1%; /* Margen superior */
+  margin-block-end: 0%; /* Margen inferior */
 }
 
+/* Estilos para el formulario */
 .formcontato__form {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos */
 }
 
+/* Estilos para el contenedor de entrada */
 .input-container {
-    
-    display: flex;
-    flex-direction: column;
-    
-  }
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos */
+}
 
-
+/* Estilos para las entradas del formulario */
 .formcontato__input {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  height: 3vh;
+  margin-top: 0.5rem; /* Margen superior */
+  margin-bottom: 0.5rem; /* Margen inferior */
+  height: 3vh; /* Altura */
 }
 
+/* Estilos para el área de texto del formulario */
 .formcontato__textarea {
-  height: 10vh;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  height: 10vh; /* Altura */
+  margin-top: 0.5rem; /* Margen superior */
+  margin-bottom: 0.5rem; /* Margen inferior */
 }
 
+/* Estilos para el mensaje de error */
 .input-message-error {
-  color: red;
+  color: red; /* Color del texto */
 }
 
+/* Estilos para el botón de enviar */
 .formcontato__botao {
-  all: unset;
-  width: 20vw;
-  border-style: solid;
-  border-width: 0.01rem;
-  margin-top: 5rem;
-  padding: 1rem;
-  background-color: #2a7ae4;
-  color: white;
-  text-align: center;
-  font-size: 1.4rem;
+  all: unset; /* Restablecer todos los estilos */
+  width: 20vw; /* Ancho */
+  border-style: solid; /* Estilo del borde */
+  border-width: 0.01rem; /* Ancho del borde */
+  margin-top: 5rem; /* Margen superior */
+  padding: 1rem; /* Relleno */
+  background-color: #2a7ae4; /* Color de fondo */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  font-size: 1.4rem; /* Tamaño de la fuente */
 }
 
-/*Tablet*/
-/* @media (min-width: 768px) { */
+/* Estilos para tablet */
 @media screen and (max-width: 768px) {
   .formcontato__contacto {
-    width: 100vw;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    justify-content: center;
+    width: 100vw; /* Ancho máximo */
+    padding-top: 2rem; /* Espaciado superior */
+    padding-bottom: 2rem; /* Espaciado inferior */
+    justify-content: center; /* Centrar horizontalmente */
   }
 
   .formcontato--esquerda {
-    display: none;
+    display: none; /* Ocultar elemento */
   }
 
   .formcontato__title {
-    font-size: 1.3rem;
+    font-size: 1.3rem; /* Tamaño de la fuente */
   }
 
   .formcontato__subtext {
-    font-size: 1rem;
-  } 
+    font-size: 1rem; /* Tamaño de la fuente */
+  }
 
   .formcontato__botao {
-    
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Tamaño de la fuente */
   }
 }
 
-/*Mobile*/
+/* Estilos para móviles */
 @media screen and (max-width: 425px) {
-  /*Contacto*/
-
   .formcontato__text {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2vw; /* Margen izquierdo */
+    margin-right: 2vw; /* Margen derecho */
   }
 
   .formcontato__botao {
-    
-    font-size: 0.7rem;
+    font-size: 0.7rem; /* Tamaño de la fuente */
   }
 }

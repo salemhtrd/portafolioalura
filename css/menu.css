@@ -1,56 +1,66 @@
-/*Sección Menu*/
-
+/* Sección del Menú */
 section.menu {
-  width: 80vw;
+  width: 100%; /* Cambiamos el ancho al 100% para que ocupe todo el espacio disponible */
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #2a7ae4;
   color: white;
+  padding: 2px 5px; /* Reducimos el relleno para reducir el grosor del menú */
 }
 
 header.menu__header {
   display: flex;
   align-items: center;
+  margin-left: 3rem;
 }
 
 .menu__icono {
   height: 20px;
+  width: 50px;
   border-radius: 50%;
+  margin-left: 2rem;
 }
 
 .menu__title {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .menu__list {
   display: flex;
-  justify-content: space-between;
+  align-items: center; /* Alineamos verticalmente los elementos */
+}
+
+.menu__list__item {
+  margin-left: 20px; /* Añadimos espacio entre los elementos */
+}
+
+.menu__list__item:last-child {
+  margin-right: 3rem; /* Agrega un margen a la derecha del último elemento (correo electrónico) */
+}
+
+.menu__list__item:nth-last-child(2) {
+  margin-right: 20px; /* Deja espacio entre el penúltimo elemento (Proyectos) y el último elemento (correo electrónico) */
+}
+
+.menu__list__item:hover {
+  background-color: rgb(255, 77, 0); /* Cambia el fondo completo cuando se hace hover */
 }
 
 .menu__list__item a {
   color: white;
-  border: none;
-  cursor: pointer;
-  padding: 20px; /* Ajusta según sea necesario */
-  margin-top: 20px; /* Ajusta según sea necesario */
-}
-
-.menu__list__item a:hover {
-  color: rgb(255, 77, 0);
-  border-color: orange;
+  text-decoration: none;
 }
 
 .menu__list__item__contato {
   color: white;
 }
 
-/*Tablet*/
-/* @media (min-width: 768px) { */
+/* Tablet */
 @media screen and (max-width: 768px) {
   /* Menú */
   section.menu {
-    width: 90vw;
+    width: 90%; /* Ajustamos el ancho para dispositivos de pantalla mediana */
   }
 
   .menu__list__item {
@@ -62,10 +72,9 @@ header.menu__header {
   }
 }
 
-/*Mobile*/
+/* Móvil */
 @media screen and (max-width: 425px) {
-  /*Menu*/
-
+  /* Menú */
   .menu__icono {
     height: 15px;
   }

@@ -1,8 +1,8 @@
-/*Sección Title*/
-
+/* Sección Title */
 section.title {
   margin-top: 2rem;
   width: 80vw;
+  margin: 0 auto; /* Agrega esta línea para centrar horizontalmente */
 }
 
 .title__div {
@@ -33,7 +33,7 @@ section.title {
 }
 
 .title_link {  
-  color:blue;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -69,8 +69,7 @@ section.title {
   background-color: red;
 }
 
-/*Tablet*/
-/* @media (min-width: 768px) { */
+/* Tablet */
 @media screen and (max-width: 768px) {
   /*title*/
   section.title {
@@ -95,9 +94,9 @@ section.title {
 }
 
 
-/*Mobile*/
+/* Mobile */
 @media screen and (max-width: 425px) {
-  /*Titulo*/
+  /* Title */
 
   section.title {
     width: 90vw;

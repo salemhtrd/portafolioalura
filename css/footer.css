@@ -1,8 +1,7 @@
-/*footeer*/
-
+/* Footer */
 .footer {
-    width: 100vw;
-    background: #2a7ae4;
+  width: 100vw;
+  background: #2a7ae4;
 }
 
 .footer__rodape {
@@ -14,19 +13,18 @@
   font-size: 1.5rem;
 }
 
-
-/*Tablet*/
+/* Tablet */
 @media screen and (max-width: 768px) {
-  /*Footer*/
+  /* Footer */
   .footer__rodape {
     font-size: 1.2rem;
   }
 }
 
-/*Mobile*/
+/* Mobile */
 @media screen and (max-width: 425px) {
-  /*Footer*/
+  /* Footer */
   .footer__rodape {
-    font-size: 0.8rem;
+    font-size: 1rem; /* Reducido aún más para dispositivos móviles */
   }
 }
