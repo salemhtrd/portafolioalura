@@ -109,7 +109,6 @@ section.experience {
 
   .experience__botao--repo,
   .experience__botao--demo {
-    width: 13vw;
     font-size: 1.2rem;
   }
 }
@@ -126,8 +125,9 @@ section.experience {
 
   .experience__box,
   .experiencie__box {
-    display: block;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .experience__img {
